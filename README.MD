@@ -23,11 +23,6 @@ encoding.
 | `train.csv`, `test.csv` | Competition data, indexed by `id`. |
 | `original_dataset.csv` | The labeled source data the competition set was generated from. Optional — set `original_data = None` to skip the features that depend on it. |
 
-The example target column is `Irrigation_Need`. The feature space is a mix of example numeric
-columns (e.g. `Soil_pH`, `Temperature_C`, `Humidity`, `Rainfall_mm`,
-`Field_Area_hectare`) and example categorical columns (e.g. `Soil_Type`, `Crop_Type`,
-`Crop_Growth_Stage`, `Season`, `Irrigation_Type`, `Water_Source`, `Region`).
-
 **Outputs:** `data/train_x_preprocessed.csv` / `data/test_x_preprocessed.csv` —
 the same rows with the engineered feature columns added, ready for any
 downstream model.
