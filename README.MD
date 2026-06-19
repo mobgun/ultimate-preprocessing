@@ -1,10 +1,9 @@
-# Predicting Irrigation Need — Preprocessing
+# The ONLY preprocessing you NEED
 
-Feature engineering for the **Predicting Irrigation Need** competition. This
-repository contains **only the preprocessing pipeline** ([`preprocessing.ipynb`](preprocessing.ipynb));
-the modeling notebooks are intentionally not published.
+Feature engineering for the **Kaggle** competitions. This
+repository contains **only the preprocessing pipeline** ([`preprocessing.ipynb`](preprocessing.ipynb)).
 
-The competition data is **synthetically generated** from a smaller labeled
+The competition data usually is **synthetically generated** from a smaller labeled
 `original_dataset`, so most of the engineered features try to recover artifacts
 of that generation process — digit/rounding patterns, value snapping, and
 resampling ratios — on top of standard categorical interactions and target
@@ -24,9 +23,9 @@ encoding.
 | `train.csv`, `test.csv` | Competition data, indexed by `id`. |
 | `original_dataset.csv` | The labeled source data the competition set was generated from. Optional — set `original_data = None` to skip the features that depend on it. |
 
-The target column is `Irrigation_Need`. The feature space is a mix of numeric
+The example target column is `Irrigation_Need`. The feature space is a mix of example numeric
 columns (e.g. `Soil_pH`, `Temperature_C`, `Humidity`, `Rainfall_mm`,
-`Field_Area_hectare`) and categorical columns (e.g. `Soil_Type`, `Crop_Type`,
+`Field_Area_hectare`) and example categorical columns (e.g. `Soil_Type`, `Crop_Type`,
 `Crop_Growth_Stage`, `Season`, `Irrigation_Type`, `Water_Source`, `Region`).
 
 **Outputs:** `data/train_x_preprocessed.csv` / `data/test_x_preprocessed.csv` —
