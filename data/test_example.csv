@@ -1,0 +1,11 @@
+id,Soil_Type,Soil_pH,Soil_Moisture,Organic_Carbon,Electrical_Conductivity,Temperature_C,Humidity,Rainfall_mm,Sunlight_Hours,Wind_Speed_kmh,Crop_Type,Crop_Growth_Stage,Season,Irrigation_Type,Water_Source,Field_Area_hectare,Mulching_Used,Previous_Irrigation_mm,Region
+630000,Silt,6.36,26.19,0.59,2.81,17.83,30.24,1533.38,5.4,3.0,Maize,Sowing,Rabi,Canal,River,13.59,Yes,47.48,West
+630001,Clay,5.87,9.88,1.18,3.26,21.18,78.07,576.05,7.22,15.88,Cotton,Sowing,Rabi,Drip,Reservoir,6.12,Yes,56.43,South
+630002,Sandy,6.22,26.55,0.96,0.85,26.87,60.35,545.3,9.43,2.63,Wheat,Sowing,Kharif,Sprinkler,Reservoir,3.11,Yes,20.0,East
+630003,Clay,7.68,53.58,0.83,0.55,41.74,36.05,1211.03,6.69,1.86,Maize,Harvest,Rabi,Canal,Groundwater,2.27,No,102.99,North
+630004,Loamy,5.23,59.02,0.54,2.11,41.08,52.47,1321.91,4.11,5.71,Cotton,Sowing,Kharif,Canal,Groundwater,12.39,Yes,13.33,Central
+630005,Clay,4.93,20.28,1.06,2.93,14.64,81.96,2175.11,5.88,11.32,Rice,Flowering,Rabi,Rainfed,Rainwater,5.11,No,4.91,West
+630006,Sandy,5.07,60.01,0.94,1.62,14.76,91.5,2417.29,5.71,8.55,Rice,Flowering,Kharif,Canal,River,10.32,No,97.55,West
+630007,Sandy,6.88,17.99,0.61,2.19,33.89,80.98,1847.35,9.03,8.63,Sugarcane,Vegetative,Kharif,Canal,Reservoir,2.82,Yes,102.53,South
+630008,Loamy,6.88,24.05,0.97,1.83,39.61,61.44,159.97,5.48,2.93,Potato,Sowing,Rabi,Sprinkler,Reservoir,9.08,No,103.12,East
+630009,Loamy,6.63,17.18,0.32,3.33,16.96,79.76,1194.26,5.73,13.52,Potato,Sowing,Kharif,Sprinkler,River,4.66,Yes,113.04,East

@@ -13,8 +13,12 @@ __pycache__/
 data/*.csv
 main/*_preprocessed.csv
 
+# ...but small example files are committed for reference
+!data/*_example.csv
+
 # OS / editor
 .DS_Store
 .idea/
 .vscode/
 main/
+helper.ipynb

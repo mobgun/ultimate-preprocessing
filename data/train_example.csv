@@ -1,0 +1,11 @@
+id,Soil_Type,Soil_pH,Soil_Moisture,Organic_Carbon,Electrical_Conductivity,Temperature_C,Humidity,Rainfall_mm,Sunlight_Hours,Wind_Speed_kmh,Crop_Type,Crop_Growth_Stage,Season,Irrigation_Type,Water_Source,Field_Area_hectare,Mulching_Used,Previous_Irrigation_mm,Region,Irrigation_Need
+0,Loamy,4.92,32.58,1.01,3.05,15.01,50.61,725.99,5.9,16.79,Sugarcane,Sowing,Zaid,Drip,Rainwater,0.82,No,112.16,East,Low
+1,Clay,7.08,56.61,0.44,2.0,22.92,67.86,985.66,6.98,3.39,Wheat,Vegetative,Kharif,Rainfed,River,5.27,Yes,47.16,South,Low
+2,Clay,5.69,27.71,0.81,2.83,26.97,92.22,2201.7,6.05,3.85,Rice,Vegetative,Kharif,Sprinkler,Reservoir,8.24,Yes,110.38,North,Low
+3,Sandy,5.65,13.32,1.33,0.87,13.32,61.57,1357.33,9.12,2.31,Wheat,Flowering,Kharif,Canal,River,8.32,Yes,53.85,South,Medium
+4,Clay,7.96,59.14,0.38,0.96,20.22,91.11,1538.2,6.95,13.94,Wheat,Sowing,Rabi,Canal,River,7.37,No,93.19,South,Low
+5,Sandy,5.09,24.7,1.28,0.48,12.21,92.35,696.03,9.11,7.37,Sugarcane,Flowering,Kharif,Sprinkler,River,0.81,No,86.56,South,Medium
+6,Silt,7.53,49.67,1.44,1.62,14.02,61.65,889.39,8.44,16.76,Potato,Flowering,Zaid,Sprinkler,Rainwater,13.32,No,14.05,East,Medium
+7,Loamy,7.56,48.61,0.38,1.31,22.78,61.53,708.82,9.96,7.83,Rice,Sowing,Zaid,Sprinkler,Reservoir,5.63,Yes,110.99,East,Low
+8,Silt,6.02,53.01,0.9,0.49,20.55,61.3,1536.36,10.5,19.38,Potato,Flowering,Kharif,Rainfed,River,8.17,Yes,36.37,West,Low
+9,Silt,7.39,41.91,0.58,0.78,39.25,85.52,281.76,8.86,13.13,Wheat,Vegetative,Kharif,Rainfed,Reservoir,5.41,No,71.92,Central,High
